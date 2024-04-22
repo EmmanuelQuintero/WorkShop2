@@ -6,7 +6,7 @@ Welcome, this project is an ETL process implemented in Apache Airflow from two d
 Made by Emmanuel Quintero
 
 # Ex:
-![Workshop Dag](image.png)
+![Workshop Dag](images/image.png)
 
 # Tools used
 
@@ -122,13 +122,13 @@ docker-compose up
 
 
 You wait for something like this to appear:
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 And as soon as you get it you can enter 'localhost:8080'
 
 Once you put localhost:8080 in your browser, put the username: airflow and the password: airflow and you will be able to enter
 
 If you get an error like this:
-![alt text](<Imagen de WhatsApp 2024-04-21 a las 16.07.59_6031e950.jpg>)
+![alt text](<images/Imagen de WhatsApp 2024-04-21 a las 16.07.59_6031e950.jpg>)
 
 Then you will go to your Docker Desktop and look for these containers (it doesn't matter what order you do):
 
@@ -149,13 +149,13 @@ It would look like this:
 ```
 
 Once you have done this in each container, this should appear in airflow:
-![alt text](<Imagen de WhatsApp 2024-04-21 a las 16.11.12_4d7bd70c.jpg>)
+![alt text](<images/Imagen de WhatsApp 2024-04-21 a las 16.11.12_4d7bd70c.jpg>)
 
 And you activate the dag and you can now run it
-![Workshop Dag](image.png) Like the example
+![Workshop Dag](images/image.png) Like the example
 
 Once it has run completely, you can log into your postgres and verify that the table has been created. In my case the table is called MusicAwards
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 You can also verify that the file has been uploaded to the drive folder that you configured for PyDrive2
 
@@ -164,15 +164,15 @@ For visualizations:
 9. Go to Powerr BI
 
 You create a new report
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 You select get data (Obtener Datos)
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 Search for Postgres and select Postgres Database
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 You put your server (here you can put localhost) since the table is saved in your local postgres and the name of your database
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
 You look for the table that contains the merge and you can now make your visualizations
 
