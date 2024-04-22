@@ -6,7 +6,7 @@ Welcome, this project is an ETL process implemented in Apache Airflow from two d
 Made by Emmanuel Quintero
 
 # Ex:
-![Workshop Dag](images/image.png)
+![image](https://github.com/emmanuelqp/WorkShop2/assets/111546312/36b1dc2f-4ec1-429a-ac6b-88726af98c2c)
 
 # Tools used
 
@@ -122,13 +122,13 @@ docker-compose up
 
 
 You wait for something like this to appear:
-![alt text](images/image-1.png)
+![image](https://github.com/emmanuelqp/WorkShop2/assets/111546312/7962908a-0040-40b9-839c-a4427dc0c2c0)
 And as soon as you get it you can enter 'localhost:8080'
 
 Once you put localhost:8080 in your browser, put the username: airflow and the password: airflow and you will be able to enter
 
 If you get an error like this:
-![alt text](<images/Imagen de WhatsApp 2024-04-21 a las 16.07.59_6031e950.jpg>)
+![Imagen de WhatsApp 2024-04-21 a las 16 07 59_8b4c402b](https://github.com/emmanuelqp/WorkShop2/assets/111546312/d4e48bae-d406-4a6c-a091-b9e51bde9226)
 
 Then you will go to your Docker Desktop and look for these containers (it doesn't matter what order you do):
 
@@ -149,13 +149,14 @@ It would look like this:
 ```
 
 Once you have done this in each container, this should appear in airflow:
-![alt text](<images/Imagen de WhatsApp 2024-04-21 a las 16.11.12_4d7bd70c.jpg>)
+![Imagen de WhatsApp 2024-04-21 a las 16 11 12_e7e6cc25](https://github.com/emmanuelqp/WorkShop2/assets/111546312/2559cfc1-8bbd-4072-b55e-c66709d4544b)
+
 
 And you activate the dag and you can now run it
-![Workshop Dag](images/image.png) Like the example
+![image](https://github.com/emmanuelqp/WorkShop2/assets/111546312/36b1dc2f-4ec1-429a-ac6b-88726af98c2c)Like the example
 
 Once it has run completely, you can log into your postgres and verify that the table has been created. In my case the table is called MusicAwards
-![alt text](images/image-2.png)
+![image](https://github.com/emmanuelqp/WorkShop2/assets/111546312/9719cc40-d0ac-4037-81a5-eeee75b506d8)
 
 You can also verify that the file has been uploaded to the drive folder that you configured for PyDrive2
 
@@ -164,15 +165,19 @@ For visualizations:
 9. Go to Powerr BI
 
 You create a new report
-![alt text](images/image-3.png)
+![image](https://github.com/emmanuelqp/WorkShop2/assets/111546312/b7d9c8a5-6984-438d-ace6-bc5cedadc792)
+
 
 You select get data (Obtener Datos)
-![alt text](images/image-4.png)
+![image](https://github.com/emmanuelqp/WorkShop2/assets/111546312/311d8b79-5ad6-4f0f-8102-b66f355b6a95)
+
 
 Search for Postgres and select Postgres Database
-![alt text](images/image-5.png)
+![image](https://github.com/emmanuelqp/WorkShop2/assets/111546312/07a9ba20-0d65-4096-830a-8ee37c706721)
+
 You put your server (here you can put localhost) since the table is saved in your local postgres and the name of your database
-![alt text](images/image-6.png)
+![image](https://github.com/emmanuelqp/WorkShop2/assets/111546312/82cb3de7-244a-443b-b4f1-ecd7de2b5e0e)
+
 
 You look for the table that contains the merge and you can now make your visualizations
 
