@@ -1,0 +1,11 @@
+logs/
+__pycache__/
+conection_air.json/
+conection.json/
+client_secrets.json
+credentials_module.json
+venv/
+settings.yaml
+logs/
+config/
+settings.yaml
